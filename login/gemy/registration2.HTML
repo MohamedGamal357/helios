@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="registration.css">
+    <link rel="website icon" type="png" href="./مستخدم.png">
+</head>
+
+<body>
+    <header>
+        <div class="img1">
+            <img src="./صيانة 1.png" alt="">
+        </div>
+    </header>
+    <form class="container" id="formdata">
+        <div class="dete">
+            <div class="header">
+                <h1>انشاء حساب</h1>
+            </div>
+            <div class="flexx">
+
+                <div class="last">
+                    <label for="">الاسم الاخير</label>
+                    <input class="inputlast" type="text" name="name" id="last" placeholder="مثال : جمال" />
+                </div>
+                <div class="first">
+                    <label for="">الاسم الاول</label>
+                    <input class="inputfirst" type="text" name="name" id="name" placeholder="مثال : محمد" />
+                </div>
+            </div>
+            <div class="name">
+                <label for="">المحافظة</label>
+                <input class="input1" type="text" name="name" id="town" placeholder="مثال : الدقهلية" />
+            </div>
+
+            <div class="name">
+                <label for="">المدينة</label>
+                <input class="input1" type="text" name="name" id="city" placeholder="مثال : المنصورة" />
+            </div>
+            <div class="name">
+                <label for="">المهنة</label>
+                <!-- <input class="input1" type="text" name="name" id="job" placeholder="مثال : مبرمج" /> -->
+                <input list="coder" id="job">
+                <datalist id="coder">
+                    <option value="نجار">
+                    <option value="سباك">
+                    <option value="كهربائي">
+                </datalist> </div>
+
+            <div class="email">
+                <label for="">البريد الالكتروني</label>
+                <input class="input1" type="email" name="email" id="email" placeholder="moh@gmail.com" />
+            </div>
+            <div class="password">
+                <label for="">كلمه المرور</label>
+                <input class="input1" type="password" name="password" id="password" placeholder="" />
+            </div>
+            <div class="password2">
+                <label for="">تأكيد كلمه المرور</label>
+                <input class="input1" type="password" name="" id="Confirmation" placeholder="" />
+            </div>
+            <div class="submit ">
+                <a href="./login.html "><button type="submit ">تسجيل</button></a>
+            </div>
+            <div class="link ">
+                <p>انا امتلك حساب <a href="./login.html ">تسجيل الدخول </a></p>
+            </div>
+        </div>
+        <section class="space1 ">
+            <div>
+                <img class="img2 " src="./Group 70.png " alt=" ">
+            </div>
+        </section>
+
+    </form>
+    <script src="./registration.js"></script>
+</body>
+
+</html>

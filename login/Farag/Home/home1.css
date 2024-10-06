@@ -1,0 +1,227 @@
+body{
+    background-color: #35618E;
+    margin: auto;
+    overflow-x: hidden;
+}
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.continar {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    ' main main main main main main'  
+}
+
+.continar > div {
+  background-color: #35618E;
+  padding: 20px 65px; 
+}
+.img1{position: relative;
+    left: 110%;
+    top: -20px;
+    width: 100px;
+}
+nav{
+    background-color: #7290B0;
+    height: 70px;
+    width: 60%;
+    border-radius: 10px;
+    position: absolute;
+    right: 340px;
+}
+.img1_nav{
+  position: absolute;
+  left: 900px;
+  top: -20px;
+}
+.img2_nav{
+  position: absolute;
+  right: 820px;
+  top: -20px;
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+button{
+  background-color: white;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  border: solid white ;
+  position: relative;
+  top: -4px;
+  box-shadow: 4px 5px 5px #ECB73E;
+}
+button:hover{
+  box-shadow: 10px 10px 10px black;
+      transition: ease-out 1s;
+}
+span{position: relative;
+  left: 10px;
+  bottom:  70px;
+padding-left: 40px;
+}
+.nav2{
+    background-color: #7290B0;
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    position: relative;
+    right: 20px;
+}
+.s{
+  position: relative;
+  left: 180px;
+  top: 10px;
+}
+.item3{
+  background-image: url(./imgs/background.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 100%;
+}
+p{
+  font-size: 70px;
+  color: aliceblue;
+  text-align: center;
+  width: 1200PX;
+  margin-top: 350px;
+  margin-left: 250px;
+  text-shadow: 10px 10px 10px #ECB73E
+}
+.button2{
+  background-color: #ECB73E;
+  height: 70px;
+  width: 250px;
+  border: solid #ECB73E;
+  margin-top: 100px;
+  margin-left: 350px; 
+  box-shadow: 4px 5px 5px #ECB73E;
+  }
+  .button3{
+    background-color: #35618E;
+    height: 70px;
+    width: 250px;
+    border: solid #35618E;
+    margin-top: 100px;
+    margin-left: 350px;
+    box-shadow: 4px 5px 5px #35618E;
+    }
+    .button2:hover{ 
+      box-shadow: 10px 10px 10px #ECB73E;
+      transition: ease-out 1s ;
+      transform: rotate(0.5deg);
+    }
+    .button3:hover{ 
+      box-shadow: 10px 10px 10px #7290B0;
+      transition: ease-out 1s ;
+      transform: rotate(0.5deg);
+    }
+.ameil{
+  color: aliceblue;
+  font-size: 40px;
+}
+.pho{
+  box-shadow: -212px -4px 3px 67px white;
+  border-radius: 10px;
+}
+h1{
+  color: white;
+  font-size: 35px;
+  text-shadow: 10px 10px 10px #ECB73E
+}
+.right{
+  position: relative;
+  left: 900px;
+  bottom: 600px;
+}
+.es{
+  width: 300px;
+  height: 40px;
+  background-color: #ECB73E;
+  border: solid #ECB73E;
+}
+.es:hover{transition:unset 5s ease-in-out ;
+  transform: skew(0.5deg) ;
+  box-shadow: 5px 5px 5px #ECB73E;
+}
+.ess{
+  color: white;
+  font-size: 25px;
+}
+.bot11{
+  width: 200px;
+  height: 200px;
+  font-size: 45px;
+  padding: 10px;
+  background-color: #ECB73E;
+  border: #ECB73E;
+  color: white;
+  position: relative;
+  left:300px ;
+  margin-right: 500px;
+}
+.bot11:hover{
+  box-shadow: 10px 10px 10px #ECB73E;
+      transition: ease-in-out 1s ;
+      transform:translate(10px , 20px);
+}
+h2{
+  text-align:center ;
+  width: 900px;
+  margin-left: 400px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 10px 10px 10px #ECB73E
+}
+.footer{
+  background-color: white;
+  height: 413px;
+  position: relative;
+  bottom: -1600pt;
+}
+.fo{
+  position: relative;
+  top: 50px;
+}
+.img_5{margin-left: 10px;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: -10px;
+  left: 80px;
+}
+h4{
+  margin-left: 100px;
+  color: #35618E;
+  text-shadow: 10px 10px 10px #ECB73E
+}
+.img6{
+  margin-left: 20px;
+}
+.fa{font-size: 25px;
+  color: #35618E;
+  position: relative;
+  bottom: 150px;
+  text-align: center;
+  text-shadow: 10px 10px 10px #ECB73E
+}
+.boot{position: relative;
+  left: 350px;
+  bottom: -80px;
+  width: 250px;
+  height: 150px;
+}
+.end{
+  position: absolute;
+  right: 350px;
+  bottom: 150px;
+  text-align: right;
+  color: #35618E;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 10px 10px 10px #ECB73E
+}

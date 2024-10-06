@@ -1,0 +1,169 @@
+        body {
+            margin: auto;
+            justify-content: center;
+            background-color: #35618E;
+        }
+        
+        header {
+            /* width: 1245px; */
+            margin-top: 43px;
+        }
+        
+        .img1 {
+            display: flex;
+            justify-content: end;
+            margin-right: 184px;
+            flex-wrap: wrap;
+        }
+        
+        .img2 {
+            margin-top: 70px;
+            width: 362px;
+            height: 242px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        .space2 {
+            width: 505px;
+            height: 411px;
+            border: 1px solid #35618E;
+            border-radius: 24px;
+            box-shadow: 1px 1px 18px 0px #4b4949;
+        }
+        
+        h1 {
+            text-align: center;
+            position: relative;
+            top: 53px;
+            font-size: 32px;
+            color: #ECB73E;
+        }
+        
+        .space3 {
+            display: flex;
+            position: relative;
+            top: 79px;
+            justify-content: space-evenly;
+        }
+        
+        .flexbox {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        
+        #user {
+            margin-bottom: 21px;
+            width: 125px;
+            margin-left: 27px;
+            height: 116px;
+        }
+        
+        #worker {
+            margin-bottom: 21px;
+            width: 125px;
+            margin-left: 27px;
+            height: 116px;
+        }
+        
+        .imgspce1 {}
+        
+        .imgspce2 {}
+        /* .button {
+            position: relative;
+            width: 184px;
+            height: 40px;
+            background-color: #ECB73E;
+            display: flex;
+            align-items: center;
+            color: black;
+            flex-direction: column;
+            justify-content: center;
+            border: none;
+            font-size: 20px;
+            padding: 12px;
+            gap: 12px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        
+        .button::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            left: -4px;
+            top: -1px;
+            margin: auto;
+            width: 193px;
+            height: 48px;
+            border-radius: 10px;
+            background: linear-gradient(-45deg, #ECB73E 0%, #35618E 100%);
+            z-index: -10;
+            pointer-events: none;
+            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        }
+        
+        .button::after {
+            content: "";
+            z-index: -1;
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(-45deg, #ECB73E 0%, #35618E 100%);
+            transform: translate3d(0, 0, 0) scale(0.95);
+            filter: blur(20px);
+        }
+        
+        .button:hover::after {
+            filter: blur(30px);
+        }
+        
+        .button:hover::before {
+            transform: rotate(-180deg);
+        }
+        
+        .button:active::before {
+            scale: 0.7;
+        }
+        
+        button:active::before {
+            scale: 0.7;
+        }
+        
+        utton:active::before {
+            scale: 0.7;
+        }
+        
+        utton:active::before {
+            scale: 0.7;
+        } */
+        
+        button {
+            padding: 1.3em 3em;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+            font-weight: 500;
+            color: #000;
+            background-color: #fff;
+            border: none;
+            border-radius: 45px;
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            outline: none;
+        }
+        
+        button:hover {
+            background-color: #23c483;
+            box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+            color: #fff;
+            transform: translateY(-7px);
+        }
+        
+        button:active {
+            transform: translateY(-1px);
+        }

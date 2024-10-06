@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER2</title>
+    <link rel="stylesheet" href="registration2.CSS">
+    <link rel="website icon" type="png" href="./مستخدم.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <header>
+        <div class="img1">
+            <img class="filter" src="/login/Farag/Home/imgs/HELIOS-LOGO.png" alt="">
+        </div>
+    </header>
+    <form class="container" id="formdata" method="post">
+        <div class="dete">
+            <div class="header">
+                <h1>انشاء حساب</h1>
+            </div>
+            <div class="flexx">
+
+                <div class="last">
+                    <label for="">الاسم الاخير</label>
+                    <input class="inputlast" type="text" name="name" id="lastName" placeholder="مثال : جمال" />
+                </div>
+                <div class="first">
+                    <label for="">الاسم الاول</label>
+                    <input class="inputfirst" type="text" name="name" id="firstName" placeholder="مثال : محمد" />
+                </div>
+            </div>
+            <div class="name">
+                <label for="">المحافظة</label>
+                <!-- <input class="input1" type="text" name="name" id="gover" placeholder="مثال : الدقهلية" /> -->
+
+                <select class="input1" name="name" id="town">
+                    <option value=" "></option>
+                </select>
+            </div>
+
+            <div class="name">
+                <label for="">المدينة</label>
+                <!-- <input class="input1" type="text" name="name" id="city" placeholder="مثال : المنصورة" /> -->
+                <select class="input1" name="name" id="city">
+                    <option value=" "></option>
+                </select>
+            </div>
+            <div class="name">
+                <label for="">المهنة</label>
+                <!-- <input class="input1" type="text" name="name" id="job" placeholder="مثال : مبرمج" /> -->
+                <input list="coder" id="job">
+                <datalist id="coder">
+                    <option value="نجار">
+                    <option value="سباك">
+                    <option value="كهربائي">
+                </datalist> </div>
+            <div class="phone ">
+                <label for=" ">رقم الهاتف</label>
+                <input class="input1 " type="text " required name="phone " id="phoneNumber" placeholder=" رقم الهاتف " />
+            </div>
+            <div class="email">
+                <label for="">البريد الالكتروني</label>
+                <input class="input1" type="email" name="email" id="email" placeholder="moh@gmail.com" />
+            </div>
+            <div class="password">
+                <label for="">كلمه المرور</label>
+                <input class="input1" type="password" name="password" id="password" placeholder="" />
+            </div>
+            <div class="password2">
+                <label for="">تأكيد كلمه المرور</label>
+                <input class="input1" type="password" name="" id="confirmPassword" placeholder="" />
+            </div>
+            <div class="submit ">
+                <a href="./login.html"><button type="submit ">تسجيل</button></a>
+            </div>
+            <div class="link ">
+                <p>انا امتلك حساب <a href="/login/Farag/login/login.html">تسجيل الدخول </a></p>
+            </div>
+        </div>
+        <section class="space1 ">
+            <div>
+                <img class="img2 " src="./Group 70.png " alt=" ">
+            </div>
+        </section>
+
+    </form>
+    <script src="./registration2.js"></script>
+</body>
+
+</html>

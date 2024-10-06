@@ -1,0 +1,309 @@
+                                        body {
+                                            margin: auto;
+                                            padding: 0;
+                                            justify-content: center;
+                                            background-color: #35618E;
+                                            width: 90%;
+                                            position: relative;
+                                        }
+                                        
+                                        .container {
+                                            display: flex;
+                                            margin: auto;
+                                            width: 100%;
+                                            justify-content: space-between;
+                                            flex-wrap: wrap;
+                                        }
+                                        
+                                        .person {
+                                            width: 198px;
+                                            height: 72px;
+                                            gap: 23px;
+                                            display: flex;
+                                            border-radius: 15px;
+                                            background-color: #7190AF;
+                                        }
+                                        
+                                        .img1 {
+                                            width: 48px;
+                                            height: 48px;
+                                            margin-top: 11px;
+                                        }
+                                        
+                                        .span1 {
+                                            margin-left: 20px;
+                                            margin-top: 23px;
+                                            color: aliceblue;
+                                            font-family: cursive;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        .list {
+                                            margin-left: 12px;
+                                            display: flex;
+                                            gap: 121px;
+                                            height: 77px;
+                                            border-radius: 15px;
+                                            background-color: #7190AF;
+                                        }
+                                        
+                                        .img2 {
+                                            margin-left: 24px;
+                                            width: 48px;
+                                            height: 48px;
+                                            margin-top: 13px;
+                                        }
+                                        
+                                        .img3 {
+                                            margin-left: 25px;
+                                            width: 66px;
+                                            margin-right: 22px;
+                                            height: 48px;
+                                            margin-top: 12px;
+                                        }
+                                        
+                                        .p {
+                                            display: flex;
+                                            gap: 58px;
+                                            color: aliceblue;
+                                            font-family: cursive;
+                                            font-size: 20px;
+                                        }
+                                        
+                                        nav {
+                                            margin-top: 23px;
+                                            display: flex;
+                                            gap: 78px;
+                                            align-items: flex-start;
+                                        }
+                                        
+                                        a {
+                                            text-decoration: none;
+                                            display: flex;
+                                            gap: 58px;
+                                            color: aliceblue;
+                                            font-family: cursive;
+                                            font-size: 20px;
+                                            justify-content: space-evenly;
+                                            align-items: center;
+                                        }
+                                        
+                                        header {
+                                            display: flex;
+                                            margin-top: 35px;
+                                            gap: 14px;
+                                            justify-content: flex-end;
+                                        }
+                                        
+                                        .prop {
+                                            display: flex;
+                                            width: 193px;
+                                            height: 40px;
+                                            color: #ECB73E;
+                                        }
+                                        
+                                        .img5 {
+                                            margin-top: 9px;
+                                            width: 50px;
+                                            margin-left: 8px;
+                                        }
+                                        
+                                        h2 {
+                                            color: #ECB73E;
+                                        }
+                                        /* section{
+    display: flex;
+    
+    } */
+                                        
+                                        .main {
+                                            display: flex;
+                                            width: 86%;
+                                        }
+                                        
+                                        .button1 {
+                                            width: 297px;
+                                            height: 48px;
+                                            border-radius: 60px;
+                                            font-size: 21px;
+                                            background-color: #ECB73E;
+                                            font-weight: 600;
+                                            font-family: system-ui;
+                                            color: black;
+                                            border: 1px solid #ECB73E;
+                                        }
+                                        
+                                        .button1:hover {
+                                            filter: drop-shadow(5px 5px 17px #ECB73E);
+                                            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                                            transform: scale(1.1);
+                                            -webkit-transform: scale(1.1);
+                                            -ms-transform: scale(1.1);
+                                            -o-transform: scale(1.1);
+                                            -moz-transform: scale(1.1);
+                                        }
+                                        
+                                        .butt {
+                                            display: flex;
+                                            margin-top: 24px;
+                                            margin-bottom: 16px;
+                                            width: 83%;
+                                            justify-content: center;
+                                        }
+                                        
+                                        .side {
+                                            display: grid;
+                                            gap: 11px;
+                                            top: 259px;
+                                        }
+                                        
+                                        .nagar {
+                                            box-shadow: -4px 4px 1px 2px #ECB73E;
+                                            width: 102px;
+                                            border-radius: 12px;
+                                            height: 90px;
+                                        }
+                                        
+                                        .nagar:hover {
+                                            filter: drop-shadow(5px 5px 17px #ECB73E);
+                                            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                                            transform: scale(1.1);
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .sapak {
+                                            box-shadow: -4px 4px 1px 2px #ECB73E;
+                                            width: 102px;
+                                            border-radius: 12px;
+                                            height: 90px;
+                                        }
+                                        
+                                        .sapak:hover {
+                                            filter: drop-shadow(5px 5px 17px #ECB73E);
+                                            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                                            transform: scale(1.1);
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .kahrpa {
+                                            box-shadow: -4px 4px 1px 2px #ECB73E;
+                                            width: 102px;
+                                            border-radius: 12px;
+                                            height: 90px;
+                                        }
+                                        
+                                        .kahrpa:hover {
+                                            filter: drop-shadow(5px 5px 17px #ECB73E);
+                                            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                                            transform: scale(1.1);
+                                            margin-bottom: 10px;
+                                        }
+                                        
+                                        .addproblem {
+                                            display: flex;
+                                            width: 85%;
+                                            justify-content: flex-end;
+                                            margin-top: 12px;
+                                        }
+                                        
+                                        .input1 {
+                                            gap: 14px;
+                                            display: grid;
+                                            width: 507px;
+                                            justify-items: end;
+                                            margin-bottom: 17px;
+                                        }
+                                        
+                                        .inputadd {
+                                            width: 417px;
+                                            height: 35px;
+                                            border-radius: 19px;
+                                            text-align: end;
+                                            border: 1px;
+                                        }
+                                        
+                                        .form-group {
+                                            width: 503px;
+                                            text-align: end;
+                                            height: 209px;
+                                            border: 1px;
+                                            border-radius: 16px;
+                                        }
+                                        
+                                        .flexshow {
+                                            display: flex;
+                                            width: 100%;
+                                            flex-wrap: wrap;
+                                            justify-content: flex-end;
+                                            gap: 60px;
+                                        }
+                                        
+                                        .addphoto {
+                                            margin-top: 26px;
+                                        }
+                                        
+                                        .form-group2 {
+                                            position: relative;
+                                            width: 503px;
+                                            height: 209px;
+                                            border: 1px dashed #ECB73E;
+                                            border-radius: 37px;
+                                            background-color: #35618E;
+                                            margin-top: 37px;
+                                        }
+                                        
+                                        .star {
+                                            color: red;
+                                        }
+                                        
+                                        .wasf {
+                                            display: grid;
+                                            justify-items: end;
+                                            gap: 13px;
+                                        }
+                                        
+                                        label {
+                                            font-size: 21px;
+                                            font-weight: 600;
+                                            font-family: system-ui;
+                                            color: #ECB73E;
+                                        }
+                                        
+                                        .addphoto {}
+                                        
+                                        .addphoto0 {
+                                            box-shadow: -3px 6px 18px 5px #ECB73E;
+                                            position: absolute;
+                                            width: 193px;
+                                            left: 141px;
+                                            height: 54px;
+                                            top: 65px;
+                                            border: 1px;
+                                            border-radius: 17px;
+                                        }
+                                        
+                                        .out {
+                                            position: absolute;
+                                            left: 197px;
+                                            width: 67px;
+                                            top: 145px;
+                                        }
+                                        
+                                        .filter {
+                                            width: 122px;
+                                            /* filter: drop-shadow(2px 4px 6px black); */
+                                            /* margin-top: -4px; */
+                                            height: 92px;
+                                            /* box-shadow: 20px 15px 19px 0px yellow; */
+                                            border-radius: 40px;
+                                        }
+                                        
+                                        .filter:hover {
+                                            filter: drop-shadow(5px 5px 17px #ECB73E);
+                                            transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                                            transform: scale(1.1);
+                                            -webkit-transform: scale(1.1);
+                                            -ms-transform: scale(1.1);
+                                            -o-transform: scale(1.1);
+                                            -moz-transform: scale(1.1);
+                                        }
